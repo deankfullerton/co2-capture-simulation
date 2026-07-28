@@ -106,10 +106,10 @@ Screening-level capital and operating cost estimate (±30%) using NETL cost corr
 ## References
 
 Aspen Technology, Inc. (2014). *Rate-based model of the CO2 capture process by MEA using*   
-*Aspen Plus* \[Software documentation\]. Aspen Technology, Inc.   
-\[https://www.aspentech.com\](https://www.aspentech.com)  
-Arachchige, U. S. P. R., Mohsin, M., Melaaen, M. C., & Tel-Tek, P. (2012). Optimization of post combustion carbon capture process-solvent selection. *International Journal of Energy and Environment (Print)*, *3*. https://www.osti.gov/etdeweb/biblio/22106515   
-Knudsen, J. N., Jensen, J. N., Vilhelmsen, P.-J., & Biede, O. (2009). Experience with CO2 capture from coal flue gas in pilot-scale: Testing of different amine solvents. *Energy Procedia*, *1*(1), 783–790. https://doi.org/10.1016/j.egypro.2009.01.104   
+    *Aspen Plus* \[Software documentation\]. Aspen Technology, Inc.   
+    \[https://www.aspentech.com\](https://www.aspentech.com)  
+Arachchige, U. S. P. R., Mohsin, M., Melaaen, M. C., & Tel-Tek, P. (2012). Optimization of post combustion carbon capture process-solvent selection.         *International Journal of Energy and Environment (Print)*, *3*. https://www.osti.gov/etdeweb/biblio/22106515   
+Knudsen, J. N., Jensen, J. N., Vilhelmsen, P.-J., & Biede, O. (2009). Experience with CO2 capture from coal flue gas in pilot-scale: Testing of             different amine solvents. *Energy Procedia*, *1*(1), 783–790. https://doi.org/10.1016/j.egypro.2009.01.104   
 ---
 
 ## About
