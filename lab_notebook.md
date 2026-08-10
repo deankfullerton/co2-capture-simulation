@@ -94,7 +94,7 @@ ELECNRTL setup was preloaded from an ASPEN Plus Template for ELECNRTL Rate-Based
 
 ### Reaction Set 
 
-### **Table 2\.** Equilibrium Reactions
+**Table 2\.** Equilibrium Reactions
 
 | Reaction | Stoichiometry |
 | :---- | ----- |
@@ -118,7 +118,7 @@ ELECNRTL setup was preloaded from an ASPEN Plus Template for ELECNRTL Rate-Based
 ### Flowsheet configuration
 
 **Figure 1\.**   
-![][image1]
+![Alt text](./figures/FLOWSHEET LAYOUT.jpg)
 
 ### Initial Feed Stream Values
 
