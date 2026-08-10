@@ -243,7 +243,6 @@ Objectives
 ### Sensitivity results
 
 **Figure 1\.**
-
 *S-1: L/G Ratio vs Capture Rate\.*
 ![Alt text](./figures/SOLVENT%20to%20CARBON%20RATIO%20VS%20CAPTURE.png)
 
