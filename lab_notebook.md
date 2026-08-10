@@ -244,14 +244,13 @@ Objectives
 
 S-1: L/G Ratio vs Capture Rate  
 **Figure 1\.**   
-![][image2]  
+![Alt text][./figures/SOLVENT%20to%20CARBON%20RATIO%20VS%20CAPTURE.png]
 S-2: Reboiler Duty v.s. Lean Loading  
 **Figure 2\.**  
-![][image3]
-
+![Alt text][./figures/REBOILER%20DUTY%20vs%20LEAN%20LOADING.png]
 S-3: Stripper Pressure v.s.Reboiler Duty   
 **Figure 3\.**  
-![][image4]
+![Alt text][./figures/PRESSURE%20VS%20DUTY.png]
 
 ### Variables for Optimization Block
 
