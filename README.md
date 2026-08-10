@@ -4,11 +4,11 @@ Steady-state process simulation of a 90% post-combustion CO₂ capture system us
 
 ## Key results
 
-| Metric | Simulated| Benchmark | Error |
+| Metric | Simulated | Benchmark (Source) | Error |
 | :---- | :---- | :---- | :---- |
-| CO₂ capture rate | 90.14% | 90% | 0.14% |
-| Reboiler duty (GJ/tonne CO₂) | 4.147 | \~3.6–4.0 | 3.675% |
-| Lean loading (mol CO₂/mol MEA) | 0.3 | \~0.2-0.25 | 20% |
+| CO₂ capture rate | 90.14% | 90% (Knudsen et al., 2009\) | 0.14% |
+| Reboiler duty (GJ/tonne CO₂) | 4.147 | 3.7 (Knudsen et al., 2009\) | 12.08% |
+| Lean loading (mol CO₂/mol MEA) | 0.3 | 0.2-0.27 (Freguia & Rochelle, 2003\) | 11% |
 
 ---
 
@@ -73,7 +73,7 @@ ELECNRTL (electrolyte NRTL) — required for accurate modeling of the ionic CO�
 
 ### Column configuration
 
-Rate-based RadFrac for both absorber and stripper. Rate-based modeling accounts for mass-transfer resistance between vapor and liquid phases and uses reaction kinetics directly, rather than assuming equilibrium between phases at each stage. Column configuration was based on simulation described in Arachchige et al., 2012\.
+Rate-based RadFrac for both absorber and stripper. Rate-based modeling accounts for mass-transfer resistance between vapor and liquid phases and uses reaction kinetics directly, rather than assuming equilibrium between phases at each stage. Column configuration was based on the simulation described in Arachchige et al., 2012\.
 
 ### Reaction set
 
@@ -81,13 +81,13 @@ Equilibrium reactions (liquid phase): CO₂ hydration, MEA protonation, carbamat
 
 ### Validation approach
 
-Simulated outputs (reboiler duty, lean/rich loading, column temperature profiles, capture rate) are compared against the published CASTOR Esbjerg pilot plant dataset (Knudsen et al., 2009). 
+Simulated outputs (reboiler duty, lean/rich loading, column temperature profiles, capture rate) are compared with results from comparable literature. 
 
 ---
 
 ## Sensitivity analysis
 
-Three parametric studies performed using ASPEN's built-in Sensitivity tool, post-processed in Python:
+Three parametric studies were performed using ASPEN's built-in Sensitivity tool, post-processed in Python:
 
 - Reboiler duty vs. lean loading   
 - Capture rate vs. liquid-to-gas (L/G) ratio / carbon-to-solvent ratio  
@@ -99,17 +99,18 @@ Optimization: ASPEN Optimization block minimizing reboiler duty subject to ≥90
 
 ## Techno-economic analysis
 
-Screening-level capital and operating cost estimate (±30%) using NETL cost correlations (DOE/NETL-2019/2062). Outputs: levelized cost of CO₂ capture ($/tonne CO₂) as a function of capture rate and reboiler duty.
+Screening-level capital and operating cost estimate (±30%) using ASPEN economic analysis. Outputs: levelized cost of CO₂ capture ($/tonne CO₂) as a function of capture rate and reboiler duty.
 
 ---
 
 ## References
 
 Aspen Technology, Inc. (2014). *Rate-based model of the CO2 capture process by MEA using*   
-    *Aspen Plus* \[Software documentation\]. Aspen Technology, Inc.   
-    \[https://www.aspentech.com\](https://www.aspentech.com)  
-Arachchige, U. S. P. R., Mohsin, M., Melaaen, M. C., & Tel-Tek, P. (2012). Optimization of post combustion carbon capture process-solvent selection.         *International Journal of Energy and Environment (Print)*, *3*. https://www.osti.gov/etdeweb/biblio/22106515   
-Knudsen, J. N., Jensen, J. N., Vilhelmsen, P.-J., & Biede, O. (2009). Experience with CO2 capture from coal flue gas in pilot-scale: Testing of             different amine solvents. *Energy Procedia*, *1*(1), 783–790. https://doi.org/10.1016/j.egypro.2009.01.104   
+*Aspen Plus* \[Software documentation\]. Aspen Technology, Inc.   
+\[https://www.aspentech.com\](https://www.aspentech.com)  
+Arachchige, U. S. P. R., Mohsin, M., Melaaen, M. C., & Tel-Tek, P. (2012). Optimization of post combustion carbon capture process-solvent selection. *International Journal of Energy and Environment (Print)*, *3*. https://www.osti.gov/etdeweb/biblio/22106515   
+Freguia, S., & Rochelle, G. T. (2003). Modeling of CO2 capture by aqueous monoethanolamine. *AIChE Journal*, *49*(7), 1676–1686. https://doi.org/10.1002/aic.690490708   
+Knudsen, J. N., Jensen, J. N., Vilhelmsen, P.-J., & Biede, O. (2009). Experience with CO2 capture from coal flue gas in pilot-scale: Testing of different amine solvents. *Energy Procedia*, *1*(1), 783–790. https://doi.org/10.1016/j.egypro.2009.01.104   
 ---
 
 ## About
