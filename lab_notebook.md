@@ -118,7 +118,7 @@ ELECNRTL setup was preloaded from an ASPEN Plus Template for ELECNRTL Rate-Based
 ### Flowsheet configuration
 
 **Figure 1\.**   
-![Alt text](./figures/FLOWSHEET LAYOUT.jpg)
+![Alt text](./figures/FLOWSHEET%20LAYOUT.jpg)
 
 ### Initial Feed Stream Values
 
