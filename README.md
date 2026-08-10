@@ -4,7 +4,7 @@ Steady-state process simulation of a 90% post-combustion CO₂ capture system us
 
 ## Key results
 
-| Metric | Simulated (Knudsen et al., 2009\) | Esbjerg benchmark | Error |
+| Metric | Simulated| Benchmark | Error |
 | :---- | :---- | :---- | :---- |
 | CO₂ capture rate | 90.14% | 90% | 0.14% |
 | Reboiler duty (GJ/tonne CO₂) | 4.147 | \~3.6–4.0 | 3.675% |
