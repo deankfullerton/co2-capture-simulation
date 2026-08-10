@@ -265,7 +265,8 @@ Objectives
 | Type | Variable | Specifications  |
 | :---- | :---- | :---- |
 | Objective | Reboiler Duty (MW) | Minimize |
-| Constraint | Capture Rate | EFF \= (“FLUEGAS, CO2” \- “CLEANGAS, CO2” ) / “FLUEGAS, CO2’  EFF \>= 0.9 |
+| Constraint | Capture Rate | EFF \= (“FLUEGAS, CO2” \- “CLEANGAS, CO2” ) / “FLUEGAS, CO2’  
+EFF \>= 0.9 |
 | Descion | FLUEGAS (kg/sec) | Vary from 200 \- 1000 (kg/sec) |
 | Descion | Reboiler Duty (MW) | Vary from 150  \- 200 (MW) |
 
