@@ -370,10 +370,10 @@ Capture Rate: 91.4 %
 
 ## References 
 
-Arachchige, U. S. P. R., Mohsin, M., Melaaen, M. C., & Tel-Tek, P. (2012). Optimization of post-combustion carbon capture process-solvent selection. *International Journal of Energy and Environment (Print)*, *3*. https://www.osti.gov/etdeweb/biblio/22106515 \
-Aspen Technology, Inc. (2014). *Rate-based model of the CO2 capture process by MEA using Aspen Plus* \[Software documentation\]. Aspen Technology, Inc. https://www.aspentech.com \
-Freguia, S., & Rochelle, G. T. (2003). Modeling of CO2 capture by aqueous monoethanolamine. *AIChE Journal*, *49*(7), 1676–1686. https://doi.org/10.1002/aic.690490708 \
-Knudsen, J. N., Jensen, J. N., Vilhelmsen, P.-J., & Biede, O. (2009). Experience with CO2 capture from coal flue gas in pilot-scale: Testing of different amine solvents. *Energy Procedia*, *1*(1), 783–790. https://doi.org/10.1016/j.egypro.2009.01.104  \
+Arachchige, U. S. P. R., Mohsin, M., Melaaen, M. C., & Tel-Tek, P. (2012). Optimization of post-combustion carbon capture process-solvent selection. *International Journal of Energy and Environment (Print)*, *3*. https://www.osti.gov/etdeweb/biblio/22106515 \n
+Aspen Technology, Inc. (2014). *Rate-based model of the CO2 capture process by MEA using Aspen Plus* \[Software documentation\]. Aspen Technology, Inc. https://www.aspentech.com \n
+Freguia, S., & Rochelle, G. T. (2003). Modeling of CO2 capture by aqueous monoethanolamine. *AIChE Journal*, *49*(7), 1676–1686. https://doi.org/10.1002/aic.690490708 \n
+Knudsen, J. N., Jensen, J. N., Vilhelmsen, P.-J., & Biede, O. (2009). Experience with CO2 capture from coal flue gas in pilot-scale: Testing of different amine solvents. *Energy Procedia*, *1*(1), 783–790. https://doi.org/10.1016/j.egypro.2009.01.104  \n
 (2020, August 25). Monoethanolamine price index. *Businessanalytiq*. https://businessanalytiq.com/procurementanalytics/index/monoethanolamine-price-index
 
 
