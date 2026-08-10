@@ -1,0 +1,5 @@
+Utilities,,,,,
+Name,Fluid,Rate,Rate Units,Cost per Hour,Cost Units
+Electricity,,128.039,KW,9.923022,USD/H
+Cooling Water,Water,3.09603,MMGAL/H,371.5236,USD/H
+Steam @100PSI,Steam,912.4261,KLB/H,7427.148454,USD/H
